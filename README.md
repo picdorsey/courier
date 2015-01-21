@@ -11,14 +11,15 @@ Send transactional email using Postmark directly from ExpressionEngine templates
 
 ## Installation
 
-1. Download the package [here](https://github.com/picdorsey/courier/archive/master.zip) and put it system/third-party/courier
-OR If you use composer in your EE sites, add this to your composer.json file:
+- Download the package [here](https://github.com/picdorsey/courier/archive/master.zip) and put it ```system/third-party/courier``` OR If you use composer in your EE sites, add this to your composer.json file:
 
 ```
 require: "picdorsey/courier": "dev-master"
 ```
 
-3. Open "pi.courier.php" and add your Postmark API key
+- run ```composer install``` inside of the courier plugin folder
+
+- Open "pi.courier.php" and add your Postmark API key
 
 ## Usage
 
@@ -41,7 +42,7 @@ If you are using a layout, any content in the above tag pair will be injected in
 
 ## Credits
 
-Glide is maintained by [Piccirilli Dorsey](https://picdorsey.com)
+Courier is maintained by [Piccirilli Dorsey](http://picdorsey.com)
 
 ## License
 
