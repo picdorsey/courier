@@ -11,7 +11,7 @@ Send transactional email using Postmark directly from ExpressionEngine templates
 
 ## Installation
 
-- Download the package [here](https://github.com/picdorsey/courier/archive/master.zip) and put it ```system/third-party/courier``` OR If you use composer in your EE sites, add this to your composer.json file:
+- Download the package [here](https://github.com/picdorsey/courier/archive/master.zip) and put it in ```system/third-party/courier``` OR If you use composer in your EE sites, add this to your composer.json file:
 
 ```
 require: "picdorsey/courier": "dev-master"
