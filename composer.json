@@ -1,0 +1,25 @@
+{
+    "name": "courier",
+    "license": "MIT",
+    "description": "Send transactional email using Postmark directly from ExpressionEngine templates.",
+    "homepage": "http://picdorsey.com",
+    "authors": [
+        {
+            "name": "Adam Dorsey",
+            "email": "adam.dorsey@picdorsey.com",
+            "homepage": "http://picdorsey.com"
+        },
+        {
+            "name": "Tyler O'Donnell",
+            "email": "tyler.odonell@picdorsey.com",
+            "homepage": "http://picdorsey.com"
+        }
+    ],
+    "config": {
+        "preferred-install": "dist"
+    },
+    "require": {
+        "swiftmailer/swiftmailer": "~5.0",
+        "openbuildings/postmark": "0.2.*"
+    }
+}
