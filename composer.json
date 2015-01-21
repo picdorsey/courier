@@ -1,5 +1,5 @@
 {
-    "name": "courier",
+    "name": "picdorsey/courier",
     "license": "MIT",
     "description": "Send transactional email using Postmark directly from ExpressionEngine templates.",
     "homepage": "http://picdorsey.com",
