@@ -1,16 +1,16 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 $plugin_info = array(
-    'pi_name'        => 'Postman',
-    'pi_version'     => '0.1',
-    'pi_author'      => 'Piccirilli Dorsey, Inc',
+    'pi_name'        => 'Courier',
+    'pi_version'     => '0.2',
+    'pi_author'      => 'Piccirilli Dorsey, Inc.',
     'pi_description' => 'Send transactional email using Postmark directly from ExpressionEngine templates.'
 );
 
 // Get the composer goodies
 require_once __DIR__ . '/vendor/autoload.php';
 
-class Postman {
+class Courier {
 
     /**
      * Disable / useful when you don't want to keep sending emails
